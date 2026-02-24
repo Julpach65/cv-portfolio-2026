@@ -1,0 +1,163 @@
+{
+    "nav": {
+        "about": "À propos",
+        "skills": "Compétences",
+        "projects": "Projets",
+        "contact": "Contact",
+        "downloadCV": "Télécharger CV"
+    },
+    "hero": {
+        "greeting": "Bonjour, je suis",
+        "name": "Julian Pacheco\nOsuna",
+        "role": "Développeur Backend",
+        "roles": {
+            "backend": "Développeur Backend",
+            "student": "Étudiant en Génie Informatique",
+            "dba": "Administrateur de Base de données",
+            "analyst": "Analyste de données"
+        },
+        "github": "GitHub",
+        "linkedin": "LinkedIn",
+        "cta": "Voir mes Projets"
+    },
+    "about": {
+        "title": "À propos de moi",
+        "p1": "Je suis étudiant en 5ème semestre de Génie Informatique à Mazatlán, Sinaloa. Ma passion est de résoudre des problèmes complexes grâce à la technologie, en combinant design et développement pour créer des solutions efficaces.",
+        "p2": "Je me spécialise dans l'efficacité des bases de données et la logique backend, mais j'ai aussi une forte conviction en matière de conception d'interfaces UI/UX et d'analyse de données.",
+        "projects": "Projets",
+        "technologies": "Technologies"
+    },
+    "skills": {
+        "title": "Mes Compétences",
+        "backend": {
+            "name": "Backend & Bases de données",
+            "badge": "Mon Fort"
+        },
+        "frontend": {
+            "name": "Design & Frontend",
+            "badge": "UI / UX"
+        },
+        "tools": {
+            "name": "Outils",
+            "badge": "Outils"
+        }
+    },
+    "projects": {
+        "title": "Projets que j'ai construits",
+        "viewCode": "Voir le code",
+        "viewPrototype": "Voir le prototype",
+        "items": {
+            "mazzCamaron": {
+                "title": "Mazz-Camaron",
+                "description": "Conception de produit UI/UX pour une application de gestion de fermes crevettières, avec des modules de surveillance des étangs en temps réel.",
+                "tags": [
+                    "UI/UX",
+                    "Figma",
+                    "Conception Produit",
+                    "Prototype"
+                ]
+            },
+            "invoXpressAdmin": {
+                "title": "InvoXpress - Système administratif",
+                "description": "Système de gestion des stocks pour administrer les clients, les enregistrements, les fournisseurs, les employés et les produits.",
+                "tags": [
+                    "Full-Stack",
+                    "Java",
+                    "SQL",
+                    "CRUD"
+                ]
+            },
+            "invoXpressEcommerce": {
+                "title": "InvoXpress - E-commerce",
+                "description": "InvoXpress est une solution complète conçue pour la gestion efficace des ventes et de la facturation dans le secteur de la quincaillerie.",
+                "tags": [
+                    "Frontend",
+                    "HTML",
+                    "CSS",
+                    "Javascript"
+                ]
+            },
+            "cloudSyncAI": {
+                "title": "CloudSync AI",
+                "description": "Application Android développée en Kotlin. L'application démontre l'intégration d'une base de données cloud via Supabase et l'utilisation de l'IA générative via l'API Google Gemini.",
+                "tags": [
+                    "Kotlin",
+                    "Backend",
+                    "Sqlite"
+                ]
+            },
+            "mariaDeLetras": {
+                "title": "Maria de Letras",
+                "description": "Solution pour le contrôle des stocks, les ventes et l'administration des librairies, même dans des conditions de connectivité instable.",
+                "tags": [
+                    "JavaScript",
+                    "HTML",
+                    "CSS",
+                    "PHP"
+                ]
+            },
+            "cinepolis": {
+                "title": "Cinepolis Survey APP",
+                "description": "Application mobile conçue pour collecter et gérer les retours des clients sur l'expérience cinématographique.",
+                "tags": [
+                    "Supabase",
+                    "Kotlin",
+                    "SQLITE"
+                ]
+            }
+        }
+    },
+    "certifications": {
+        "title": "Certifications",
+        "viewCert": "Voir le certificat",
+        "items": {
+            "ccna1": {
+                "name": "CCNA: Introduction aux réseaux",
+                "issuer": "Cisco",
+                "year": "2025"
+            },
+            "ccna2": {
+                "name": "CCNA: Commutation, Routage et Éléments essentiels du sans-fil",
+                "issuer": "Cisco",
+                "year": "2025"
+            },
+            "html": {
+                "name": "HTML Essentiels",
+                "issuer": "Cisco",
+                "year": "2025"
+            },
+            "sheets": {
+                "name": "Google Workspace: Feuilles de calcul",
+                "issuer": "Google",
+                "year": "2024"
+            },
+            "css": {
+                "name": "CSS Essentiels",
+                "issuer": "Cisco",
+                "year": "2025"
+            }
+        }
+    },
+    "contact": {
+        "title": "Parlez-moi de vos idées",
+        "nameLabel": "Nom",
+        "namePlaceholder": "Votre nom complet",
+        "emailLabel": "Email",
+        "emailPlaceholder": "vous@email.com",
+        "messageLabel": "Message",
+        "messagePlaceholder": "Parlez-moi de votre projet ou idée...",
+        "send": "Envoyer le message",
+        "infoTitle": "Informations de contact",
+        "emailValue": "julianpacheco316@gmail.com",
+        "locationLabel": "Emplacement",
+        "locationValue": "Mazatlán, Sinaloa, Mexique",
+        "availableLabel": "Disponible pour des projets",
+        "availableValue": "Accepte actuellement de nouvelles opportunités de collaboration",
+        "sending": "Envoi en cours...",
+        "success": "Message envoyé avec succès !",
+        "error": "Une erreur est survenue lors de l'envoi. Veuillez réessayer."
+    },
+    "footer": {
+        "rights": "Tous droits réservés"
+    }
+}

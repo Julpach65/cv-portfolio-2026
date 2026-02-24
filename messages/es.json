@@ -1,0 +1,163 @@
+{
+  "nav": {
+    "about": "Sobre Mí",
+    "skills": "Habilidades",
+    "projects": "Proyectos",
+    "contact": "Contacto",
+    "downloadCV": "Descargar CV"
+  },
+  "hero": {
+    "greeting": "Hola, soy",
+    "name": "Julian Pacheco\nOsuna",
+    "role": "Desarrollador Backend",
+    "roles": {
+      "backend": "Desarrollador Backend",
+      "student": "Estudiante de Ingeniería en TICs",
+      "dba": "Administrador de Base de Datos",
+      "analyst": "Analista de Datos"
+    },
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "cta": "Ver mis Proyectos"
+  },
+  "about": {
+    "title": "Sobre Mí",
+    "p1": "Soy estudiante de 5to semestre de Ingeniería en TI en Mazatlán, Sinaloa. Mi pasión está en resolver problemas complejos a través de la tecnología, combinando diseño y desarrollo para crear soluciones efectivas.",
+    "p2": "Me especializo en la eficiencia de Bases de Datos y la lógica del Backend, pero también tengo una fuerte convicción en el diseño de interfaces UI/UX, y el análisis de datos.",
+    "projects": "Proyectos",
+    "technologies": "Tecnologías"
+  },
+  "skills": {
+    "title": "Mis Habilidades",
+    "backend": {
+      "name": "Backend & Bases de Datos",
+      "badge": "Mi Fuerte"
+    },
+    "frontend": {
+      "name": "Diseño & Frontend",
+      "badge": "UI / UX"
+    },
+    "tools": {
+      "name": "Herramientas",
+      "badge": "Tools"
+    }
+  },
+  "projects": {
+    "title": "Proyectos que he construido",
+    "viewCode": "Ver código",
+    "viewPrototype": "Ver prototipo",
+    "items": {
+      "mazzCamaron": {
+        "title": "Mazz-Camaron",
+        "description": "Diseño de producto UI/UX para una app de gestión para granjas de camarón, con módulos de monitoreo de estanques en tiempo real con el objetivo de reducir la tasa de mortalidad de la cosecha de camarón.",
+        "tags": [
+          "UI/UX",
+          "Figma",
+          "Diseño de Producto",
+          "Prototipo"
+        ]
+      },
+      "invoXpressAdmin": {
+        "title": "InvoXpress - Sistema administrativo",
+        "description": "Sistema de gestión de inventarios para administrar clientes, registros, proveedores, empleados y productos.",
+        "tags": [
+          "Full-Stack",
+          "Java",
+          "SQL",
+          "CRUD"
+        ]
+      },
+      "invoXpressEcommerce": {
+        "title": "InvoXpress - Ecommerce",
+        "description": "InvoXpress es una solución integral diseñada para la gestión eficiente de ventas y facturación en el sector ferretero.",
+        "tags": [
+          "Frontend",
+          "HTML",
+          "CSS",
+          "Javascript"
+        ]
+      },
+      "cloudSyncAI": {
+        "title": "CloudSync AI",
+        "description": "Aplicación Android desarrollada en Kotlin. La aplicación demuestra la integración de una base de datos en la nube mediante Supabase y el uso de inteligencia artificial generativa mediante la API de Google Gemini.",
+        "tags": [
+          "Kotlin",
+          "Backend",
+          "Sqlite"
+        ]
+      },
+      "mariaDeLetras": {
+        "title": "Maria de Letras",
+        "description": "Solución para el control de inventario, ventas y administración de librerías, incluso en condiciones de conectividad inestable.",
+        "tags": [
+          "JavaScript",
+          "HTML",
+          "CSS",
+          "PHP"
+        ]
+      },
+      "cinepolis": {
+        "title": "Cinepolis Survey APP",
+        "description": "Aplicación móvil diseñada para recolectar y gestionar la retroalimentación de los clientes sobre la experiencia cinematográfica.",
+        "tags": [
+          "Supabase",
+          "Kotlin",
+          "SQLITE"
+        ]
+      }
+    }
+  },
+  "certifications": {
+    "title": "Certificaciones",
+    "viewCert": "Ver Certificado",
+    "items": {
+      "ccna1": {
+        "name": "CCNA: Conceptos básicos de redes",
+        "issuer": "Cisco",
+        "year": "2025"
+      },
+      "ccna2": {
+        "name": "CCNA: Switching, Routing, and Wireless Essentials",
+        "issuer": "Cisco",
+        "year": "2025"
+      },
+      "html": {
+        "name": "HTML Essentials",
+        "issuer": "Cisco",
+        "year": "2025"
+      },
+      "sheets": {
+        "name": "Google Workspace: Hojas de cálculo",
+        "issuer": "Google",
+        "year": "2024"
+      },
+      "css": {
+        "name": "CSS Essentials",
+        "issuer": "Cisco",
+        "year": "2025"
+      }
+    }
+  },
+  "contact": {
+    "title": "Cuéntame tus ideas",
+    "nameLabel": "Nombre",
+    "namePlaceholder": "Tu nombre completo",
+    "emailLabel": "Email",
+    "emailPlaceholder": "tu@email.com",
+    "messageLabel": "Mensaje",
+    "messagePlaceholder": "Cuéntame sobre tu proyecto o idea...",
+    "send": "Enviar Mensaje",
+    "infoTitle": "Información de Contacto",
+    "emailValue": "julianpacheco316@gmail.com",
+    "locationLabel": "Ubicación",
+    "locationValue": "Mazatlán, Sinaloa, México",
+    "availableLabel": "Disponible para proyectos",
+    "availableValue": "Actualmente aceptando nuevas oportunidades de colaboración",
+    "sending": "Enviando...",
+    "success": "¡Mensaje enviado con éxito!",
+    "error": "Hubo un error al enviar. Inténtalo de nuevo."
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados"
+  }
+}

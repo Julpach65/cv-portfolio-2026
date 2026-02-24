@@ -1,0 +1,163 @@
+{
+    "nav": {
+        "about": "About Me",
+        "skills": "Skills",
+        "projects": "Projects",
+        "contact": "Contact",
+        "downloadCV": "Download CV"
+    },
+    "hero": {
+        "greeting": "Hi, I'm",
+        "name": "Julian Pacheco\nOsuna",
+        "role": "Backend Developer",
+        "roles": {
+            "backend": "Backend Developer",
+            "student": "IT Engineering Student",
+            "dba": "Database Administrator",
+            "analyst": "Data Analyst"
+        },
+        "github": "GitHub",
+        "linkedin": "LinkedIn",
+        "cta": "View my Projects"
+    },
+    "about": {
+        "title": "About Me",
+        "p1": "I'm a 5th semester IT Engineering student in Mazatlán, Sinaloa. My passion lies in solving complex problems through technology, combining design and development to create effective solutions.",
+        "p2": "I specialize in database efficiency and backend logic, but I also have a strong conviction in UI/UX interface design and data analysis.",
+        "projects": "Projects",
+        "technologies": "Technologies"
+    },
+    "skills": {
+        "title": "My Skills",
+        "backend": {
+            "name": "Backend & Databases",
+            "badge": "My Strength"
+        },
+        "frontend": {
+            "name": "Design & Frontend",
+            "badge": "UI / UX"
+        },
+        "tools": {
+            "name": "Tools",
+            "badge": "Tools"
+        }
+    },
+    "projects": {
+        "title": "Projects I've Built",
+        "viewCode": "View Code",
+        "viewPrototype": "View Prototype",
+        "items": {
+            "mazzCamaron": {
+                "title": "Mazz-Camaron",
+                "description": "UI/UX product design for a shrimp farm management app, with real-time pond monitoring modules aimed at reducing shrimp harvest mortality rates.",
+                "tags": [
+                    "UI/UX",
+                    "Figma",
+                    "Product Design",
+                    "Prototype"
+                ]
+            },
+            "invoXpressAdmin": {
+                "title": "InvoXpress - Admin System",
+                "description": "Inventory management system for administering clients, records, suppliers, employees and products.",
+                "tags": [
+                    "Full-Stack",
+                    "Java",
+                    "SQL",
+                    "CRUD"
+                ]
+            },
+            "invoXpressEcommerce": {
+                "title": "InvoXpress - Ecommerce",
+                "description": "InvoXpress is a comprehensive solution designed for efficient sales and billing management in the hardware sector.",
+                "tags": [
+                    "Frontend",
+                    "HTML",
+                    "CSS",
+                    "Javascript"
+                ]
+            },
+            "cloudSyncAI": {
+                "title": "CloudSync AI",
+                "description": "Android application developed in Kotlin. The app demonstrates the integration of a cloud database via Supabase and the use of generative AI through the Google Gemini API.",
+                "tags": [
+                    "Kotlin",
+                    "Backend",
+                    "Sqlite"
+                ]
+            },
+            "mariaDeLetras": {
+                "title": "Maria de Letras",
+                "description": "Solution for inventory control, sales and bookstore administration, even under unstable connectivity conditions.",
+                "tags": [
+                    "JavaScript",
+                    "HTML",
+                    "CSS",
+                    "PHP"
+                ]
+            },
+            "cinepolis": {
+                "title": "Cinepolis Survey APP",
+                "description": "Mobile application designed to collect and manage customer feedback about the cinema experience.",
+                "tags": [
+                    "Supabase",
+                    "Kotlin",
+                    "SQLITE"
+                ]
+            }
+        }
+    },
+    "certifications": {
+        "title": "Certifications",
+        "viewCert": "View Certificate",
+        "items": {
+            "ccna1": {
+                "name": "CCNA: Introduction to Networks",
+                "issuer": "Cisco",
+                "year": "2025"
+            },
+            "ccna2": {
+                "name": "CCNA: Switching, Routing, and Wireless Essentials",
+                "issuer": "Cisco",
+                "year": "2025"
+            },
+            "html": {
+                "name": "HTML Essentials",
+                "issuer": "Cisco",
+                "year": "2025"
+            },
+            "sheets": {
+                "name": "Google Workspace: Spreadsheets",
+                "issuer": "Google",
+                "year": "2024"
+            },
+            "css": {
+                "name": "CSS Essentials",
+                "issuer": "Cisco",
+                "year": "2025"
+            }
+        }
+    },
+    "contact": {
+        "title": "Tell me your ideas",
+        "nameLabel": "Name",
+        "namePlaceholder": "Your full name",
+        "emailLabel": "Email",
+        "emailPlaceholder": "you@email.com",
+        "messageLabel": "Message",
+        "messagePlaceholder": "Tell me about your project or idea...",
+        "send": "Send Message",
+        "infoTitle": "Contact Information",
+        "emailValue": "julianpacheco316@gmail.com",
+        "locationLabel": "Location",
+        "locationValue": "Mazatlán, Sinaloa, México",
+        "availableLabel": "Available for projects",
+        "availableValue": "Currently accepting new collaboration opportunities",
+        "sending": "Sending...",
+        "success": "Message sent successfully!",
+        "error": "There was an error sending. Please try again."
+    },
+    "footer": {
+        "rights": "All rights reserved"
+    }
+}
