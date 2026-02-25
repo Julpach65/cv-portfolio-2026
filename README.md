@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portafolio Profesional 2026 - Julian Pacheco Osuna
 
-## Getting Started
+Este proyecto es una migración moderna del portafolio personal de Julian Pacheco Osuna a **Next.js 14**, utilizando el App Router, soporte multi-idioma nativo y una arquitectura de componentes escalable.
 
-First, run the development server:
+## Tecnologías Principales
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Framework:** Next.js 14 (App Router)
+- **Lenguaje:** TypeScript
+- **Estilos:** Tailwind CSS
+- **Internacionalización:** next-intl (ES, EN, FR)
+- **Animaciones:** Framer Motion
+- **Iconos:** React Icons (Silicon Icons oficiales para MySQL, Spring Boot y Kotlin)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Estructura del Proyecto
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- `src/app/`: Rutas localizadas y layouts persistentes.
+- `src/components/`: Componentes modulares de la interfaz (Navbar, Hero, Skills, etc.).
+- `messages/`: Archivos de traducción en formato JSON.
+- `public/`: Recursos estáticos como PDFs de certificaciones y CV.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Instalación y Uso Local
 
-## Learn More
+1. Clonar el repositorio.
+2. Instalar dependencias: `npm install`.
+3. Ejecutar servidor de desarrollo: `npm run dev`.
+4. Abrir `http://localhost:3000` en el navegador.
 
-To learn more about Next.js, take a look at the following resources:
+## Despliegue
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+El proyecto está optimizado para ser desplegado en **Vercel** con integración continua desde la rama principal.
