@@ -45,8 +45,8 @@ export default function Certifications() {
     const t = useTranslations("certifications");
 
     return (
-        <section className="py-24">
-            <div className="max-w-7xl mx-auto px-6">
+        <section className="py-24" suppressHydrationWarning>
+            <div className="max-w-7xl mx-auto px-6" suppressHydrationWarning>
                 <h2 className="text-3xl font-bold text-white mb-16 text-center">
                     {t("title")}
                 </h2>

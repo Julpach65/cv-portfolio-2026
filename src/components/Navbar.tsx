@@ -24,8 +24,8 @@ export default function Navbar() {
     };
 
     return (
-        <nav className="fixed top-0 w-full z-50 bg-[#0a0a0a]/80 backdrop-blur-md border-b border-white/5 py-4">
-            <div className="max-w-7xl mx-auto px-6 flex justify-end items-center gap-6 text-sm font-medium">
+        <nav className="fixed top-0 w-full z-50 bg-[#0a0a0a]/80 backdrop-blur-md border-b border-white/5 py-4" suppressHydrationWarning>
+            <div className="max-w-7xl mx-auto px-6 flex justify-end items-center gap-6 text-sm font-medium" suppressHydrationWarning>
                 <div className="hidden md:flex items-center gap-6">
                     <a
                         className="text-gray-400 hover:text-white transition-colors"

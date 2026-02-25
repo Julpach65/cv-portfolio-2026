@@ -27,8 +27,8 @@ export default function Projects() {
     const t = useTranslations("projects");
 
     return (
-        <section className="py-24 bg-[#111114]/20" id="projects">
-            <div className="max-w-7xl mx-auto px-6">
+        <section className="py-24 bg-[#111114]/20" id="projects" suppressHydrationWarning>
+            <div className="max-w-7xl mx-auto px-6" suppressHydrationWarning>
                 <h2 className="text-3xl font-bold text-white mb-16 text-center">
                     {t("title")}
                 </h2>

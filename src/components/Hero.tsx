@@ -15,7 +15,7 @@ export default function Hero() {
     ];
 
     return (
-        <section className="relative pt-32 pb-20 overflow-hidden">
+        <section className="relative pt-32 pb-20 overflow-hidden" suppressHydrationWarning>
 
             {/* === AURORA GLOW (Opcion 3) === */}
             <div

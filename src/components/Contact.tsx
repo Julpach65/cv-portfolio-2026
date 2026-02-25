@@ -46,8 +46,8 @@ export default function Contact() {
     };
 
     return (
-        <section className="py-24 bg-[#111114]/20" id="contact">
-            <div className="max-w-7xl mx-auto px-6">
+        <section className="py-24 bg-[#111114]/20" id="contact" suppressHydrationWarning>
+            <div className="max-w-7xl mx-auto px-6" suppressHydrationWarning>
                 <h2 className="text-3xl font-bold text-white mb-16 text-center md:text-left">
                     {t("title")}
                 </h2>

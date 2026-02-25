@@ -5,8 +5,8 @@ export default function About() {
     const t = useTranslations("about");
 
     return (
-        <section className="py-24 bg-[#111114]/30" id="about">
-            <div className="max-w-7xl mx-auto px-6">
+        <section className="py-24 bg-[#111114]/30" id="about" suppressHydrationWarning>
+            <div className="max-w-7xl mx-auto px-6" suppressHydrationWarning>
                 <h2 className="text-3xl font-bold text-white mb-16 text-center">
                     {t("title")}
                 </h2>

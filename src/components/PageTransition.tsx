@@ -22,6 +22,7 @@ export default function PageTransition({ children }: PageTransitionProps) {
                     ease: "easeInOut"
                 }}
                 className="w-full"
+                suppressHydrationWarning
             >
                 {children}
             </motion.div>
