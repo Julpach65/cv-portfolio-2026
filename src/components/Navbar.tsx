@@ -104,14 +104,14 @@ export default function Navbar() {
             {/* Mobile Menu Overlay */}
             <AnimatePresence>
                 {isMenuOpen && (
-                    <>
+                    <div className="md:hidden">
                         {/* Backdrop */}
                         <motion.div
                             initial={{ opacity: 0 }}
                             animate={{ opacity: 1 }}
                             exit={{ opacity: 0 }}
                             onClick={() => setIsMenuOpen(false)}
-                            className="fixed inset-0 bg-black/60 backdrop-blur-sm z-[45] md:hidden"
+                            className="fixed inset-0 bg-black/80 backdrop-blur-md z-[90]"
                         />
 
                         {/* Side Menu */}
@@ -120,37 +120,37 @@ export default function Navbar() {
                             animate={{ x: 0 }}
                             exit={{ x: "-100%" }}
                             transition={{ type: "spring", damping: 25, stiffness: 200 }}
-                            className="fixed top-0 left-0 bottom-0 w-[280px] bg-[#0a0a0a] border-r border-white/5 z-[50] p-8 md:hidden shadow-2xl"
+                            className="fixed top-0 left-0 bottom-0 w-[280px] bg-[#0a0a0a] border-r border-white/10 z-[100] p-8 flex flex-col shadow-2xl"
                         >
-                            <div className="flex justify-between items-center mb-12">
+                            <div className="flex justify-between items-center mb-10">
                                 <span className="text-xl font-bold text-white tracking-tight">Menú</span>
                                 <button
                                     onClick={() => setIsMenuOpen(false)}
-                                    className="text-gray-400 hover:text-white"
+                                    className="text-gray-400 hover:text-white p-2 transition-colors"
                                 >
                                     <FaTimes size={24} />
                                 </button>
                             </div>
 
-                            <div className="flex flex-col gap-8">
+                            <div className="flex flex-col gap-6">
                                 {navLinks.map((link) => (
                                     <a
                                         key={link.href}
                                         href={link.href}
                                         onClick={() => setIsMenuOpen(false)}
-                                        className="text-2xl font-semibold text-gray-400 hover:text-blue-500 transition-colors"
+                                        className="text-xl font-medium text-gray-400 hover:text-blue-500 transition-colors py-2 border-b border-white/5"
                                     >
                                         {link.label}
                                     </a>
                                 ))}
                             </div>
 
-                            <div className="absolute bottom-12 left-8 right-8">
+                            <div className="mt-auto pt-10">
                                 <p className="text-gray-500 text-sm mb-4">Julian Pacheco Osuna</p>
-                                <div className="h-px bg-white/5 w-full"></div>
+                                <div className="h-px bg-gradient-to-r from-blue-500/50 to-transparent w-full"></div>
                             </div>
                         </motion.div>
-                    </>
+                    </div>
                 )}
             </AnimatePresence>
         </nav>
