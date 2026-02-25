@@ -111,7 +111,7 @@ export default function Navbar() {
                             animate={{ opacity: 1 }}
                             exit={{ opacity: 0 }}
                             onClick={() => setIsMenuOpen(false)}
-                            className="fixed inset-0 bg-black/80 backdrop-blur-md z-[90]"
+                            className="fixed inset-0 bg-black/90 backdrop-blur-sm z-[90]"
                         />
 
                         {/* Side Menu */}
@@ -120,7 +120,7 @@ export default function Navbar() {
                             animate={{ x: 0 }}
                             exit={{ x: "-100%" }}
                             transition={{ type: "spring", damping: 25, stiffness: 200 }}
-                            className="fixed top-0 left-0 bottom-0 w-[280px] bg-[#0a0a0a] border-r border-white/10 z-[100] p-8 flex flex-col shadow-2xl"
+                            className="fixed top-0 left-0 bottom-0 w-[280px] bg-[#111114] border-r border-white/10 z-[100] p-8 flex flex-col shadow-[10px_0_30px_rgba(0,0,0,0.5)]"
                         >
                             <div className="flex justify-between items-center mb-10">
                                 <span className="text-xl font-bold text-white tracking-tight">Menú</span>
@@ -138,7 +138,7 @@ export default function Navbar() {
                                         key={link.href}
                                         href={link.href}
                                         onClick={() => setIsMenuOpen(false)}
-                                        className="text-xl font-medium text-gray-400 hover:text-blue-500 transition-colors py-2 border-b border-white/5"
+                                        className="text-xl font-medium text-gray-400 hover:text-blue-500 transition-colors py-2 border-b border-white/5 active:text-blue-400"
                                     >
                                         {link.label}
                                     </a>
