@@ -16,23 +16,31 @@ export default function About() {
                         <p>{t("p2")}</p>
                     </div>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                        {/* Stat card - mismo color azul en ambos */}
-                        <div className="bg-[#111114] border border-gray-800 p-8 rounded-2xl flex flex-col items-center justify-center hover:border-blue-500/50 transition-colors group">
+                        {/* Stat card - Proyectos */}
+                        <a
+                            href="#projects"
+                            className="bg-[#111114] border border-gray-800 p-8 rounded-2xl flex flex-col items-center justify-center hover:border-blue-500/50 transition-all group cursor-pointer hover:bg-blue-500/5"
+                        >
                             <span className="text-5xl font-bold text-blue-500 mb-2 group-hover:scale-110 transition-transform">
                                 6
                             </span>
-                            <span className="text-gray-500 text-sm tracking-widest font-semibold uppercase">
+                            <span className="text-gray-500 text-sm tracking-widest font-semibold uppercase group-hover:text-blue-400 transition-colors">
                                 {t("projects")}
                             </span>
-                        </div>
-                        <div className="bg-[#111114] border border-gray-800 p-8 rounded-2xl flex flex-col items-center justify-center hover:border-blue-500/50 transition-colors group">
+                        </a>
+
+                        {/* Stat card - Tecnologías */}
+                        <a
+                            href="#skills"
+                            className="bg-[#111114] border border-gray-800 p-8 rounded-2xl flex flex-col items-center justify-center hover:border-blue-500/50 transition-all group cursor-pointer hover:bg-blue-500/5"
+                        >
                             <span className="text-5xl font-bold text-blue-500 mb-2 group-hover:scale-110 transition-transform">
                                 15
                             </span>
-                            <span className="text-gray-500 text-sm tracking-widest font-semibold uppercase">
+                            <span className="text-gray-500 text-sm tracking-widest font-semibold uppercase group-hover:text-blue-400 transition-colors">
                                 {t("technologies")}
                             </span>
-                        </div>
+                        </a>
                     </div>
                 </div>
             </div>
