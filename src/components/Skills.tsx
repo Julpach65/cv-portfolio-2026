@@ -16,7 +16,7 @@ import {
 } from "react-icons/si";
 import { FaJava, FaChartBar } from "react-icons/fa";
 import { DiHtml5 } from "react-icons/di";
-import SpringBootIcon from "@/components/icons/SpringBootIcon";
+import PostgreSqlIcon from "@/components/icons/PostgreSqlIcon";
 
 interface Skill {
     name: string;
@@ -36,7 +36,7 @@ function SkillCard({ title, badge, skills, badgeColor, hoverBorder }: SkillCardP
         <div className="bg-[#111114] border border-gray-800 rounded-2xl p-6 relative">
             <div className="flex justify-between items-center mb-6">
                 <h3 className="text-xl font-bold text-white">{title}</h3>
-                <span className={`${badgeColor} text-xs font-bold px-2 py-1 rounded`}>
+                <span className={`${badgeColor} text-[10px] sm:text-xs font-bold px-2 py-1 rounded whitespace-nowrap flex-shrink-0`}>
                     {badge}
                 </span>
             </div>
@@ -62,7 +62,7 @@ export default function Skills() {
         { icon: <SiMysql className="text-[#4479A1] text-xl" />, name: "MySQL" },
         { icon: <SiKotlin className="text-[#7F52FF] text-xl" />, name: "Kotlin" },
         { icon: <FaJava className="text-orange-500 text-xl" />, name: "Java" },
-        { icon: <SpringBootIcon className="text-xl w-[1.25em] h-[1.25em]" />, name: "Spring Boot" },
+        { icon: <PostgreSqlIcon className="text-xl w-[1.25em] h-[1.25em]" />, name: "PostgreSQL" },
         { icon: <SiPhp className="text-purple-400 text-xl" />, name: "PHP" },
     ];
 
