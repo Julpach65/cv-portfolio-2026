@@ -91,8 +91,8 @@ export default function Navbar() {
 
                         {/* Download CV */}
                         <a
-                            href="/cv.pdf"
-                            download="Julian_Pacheco_CV.pdf"
+                            href={`/cv/${locale}.pdf`}
+                            download={`Julian_Pacheco_CV_${locale.toUpperCase()}.pdf`}
                             className="flex items-center gap-2 border border-blue-500 text-blue-400 hover:bg-blue-500/10 px-3 sm:px-4 py-2 rounded-lg transition-colors text-[10px] sm:text-xs font-semibold whitespace-nowrap"
                         >
                             <FaDownload className="text-xs" />
