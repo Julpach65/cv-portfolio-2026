@@ -3,6 +3,7 @@ import About from "@/components/About";
 import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
 import Certifications from "@/components/Certifications";
+import PlatziCertifications from "@/components/PlatziCertifications";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import ScrollReveal from "@/components/ScrollReveal";
@@ -24,6 +25,9 @@ export default function HomePage() {
                 </ScrollReveal>
                 <ScrollReveal>
                     <Certifications />
+                </ScrollReveal>
+                <ScrollReveal>
+                    <PlatziCertifications />
                 </ScrollReveal>
                 <ScrollReveal>
                     <Contact />
