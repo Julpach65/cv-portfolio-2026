@@ -14,14 +14,59 @@ const inter = Inter({
     display: "swap",
 });
 
-export const metadata: Metadata = {
-    title: "Julian Pacheco Osuna - Portfolio",
-    description:
-        "Backend Developer | Fullstack | UI/UX Designer based in Mazatlán, Sinaloa",
-    icons: {
-        icon: "/icon.jpg",
-    },
-};
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+    const { locale } = await params;
+    
+    // Títulos y Descripciones Hiper-Optimizadas por Idioma
+    const titles = {
+        es: "Julian Pacheco Osuna | Ing. en TICs & Backend Developer",
+        en: "Julian Pacheco Osuna | Software Engineer & Backend Developer",
+        fr: "Julian Pacheco Osuna | Ingénieur Logiciel & Développeur Backend"
+    };
+    
+    const descriptions = {
+        es: "Ingeniero en TICs en Mazatlán, Sinaloa. Especialista en Desarrollo Backend, Base de Datos, Seguridad y UI/UX Design.",
+        en: "Software Engineering student in Mazatlán, Sinaloa. Specialist in Backend Development, Databases, Security and UI/UX Design.",
+        fr: "Étudiant en Ingénierie Logicielle à Mazatlán. Spécialiste en Développement Backend, Bases de Données, Sécurité et Design UI/UX."
+    };
+    
+    // IMPORTANTE: Reemplazar con tu dominio real cuando lo despliegues
+    const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://julianpacheco.com";
+
+    return {
+        title: titles[locale as keyof typeof titles] || titles.es,
+        description: descriptions[locale as keyof typeof descriptions] || descriptions.es,
+        metadataBase: new URL(baseUrl),
+        alternates: {
+            canonical: `/${locale}`,
+            languages: {
+                "es": "/es",
+                "en": "/en",
+                "fr": "/fr",
+                "x-default": "/es"
+            }
+        },
+        openGraph: {
+            title: titles[locale as keyof typeof titles] || titles.es,
+            description: descriptions[locale as keyof typeof descriptions] || descriptions.es,
+            url: `${baseUrl}/${locale}`,
+            siteName: "Julian Pacheco Osuna - Portfolio",
+            images: [
+                {
+                    url: "/icon.jpg",
+                    width: 800,
+                    height: 800,
+                    alt: "Julian Pacheco Osuna",
+                }
+            ],
+            locale: locale,
+            type: "website",
+        },
+        icons: {
+            icon: "/icon.jpg",
+        },
+    };
+}
 
 export function generateStaticParams() {
     return routing.locales.map((locale) => ({ locale }));
@@ -40,8 +85,35 @@ export default async function LocaleLayout({
     }
     const messages = await getMessages();
 
+    // JSON-LD: Datos Estructurados para que Google te identifique como "Persona"
+    const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://julianpacheco.com";
+    const jsonLd = {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Julian Pacheco Osuna",
+        "url": baseUrl,
+        "image": `${baseUrl}/icon.jpg`,
+        "jobTitle": "Backend Developer & Software Engineer",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Mazatlán",
+            "addressRegion": "Sinaloa",
+            "addressCountry": "MX"
+        },
+        "sameAs": [
+            "https://github.com/", // Te sugiero rellenar aquí tu link real
+            "https://linkedin.com/in/" // Y tu link de linkedin
+        ]
+    };
+
     return (
         <html className="dark" lang={locale} suppressHydrationWarning>
+            <head>
+                <script
+                    type="application/ld+json"
+                    dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+                />
+            </head>
             <body
                 suppressHydrationWarning
                 className={`${inter.className} bg-[#0a0a0a] text-gray-300 antialiased selection:bg-blue-600 selection:text-white`}
