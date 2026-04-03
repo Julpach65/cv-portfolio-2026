@@ -22,7 +22,7 @@ export default function About() {
                             className="bg-[#111114] border border-gray-800 p-8 rounded-2xl flex flex-col items-center justify-center hover:border-blue-500/50 transition-all group cursor-pointer hover:bg-blue-500/5"
                         >
                             <span className="text-5xl font-bold text-blue-500 mb-2 group-hover:scale-110 transition-transform">
-                                6
+                                7
                             </span>
                             <span className="text-gray-500 text-sm tracking-widest font-semibold uppercase group-hover:text-blue-400 transition-colors">
                                 {t("projects")}
