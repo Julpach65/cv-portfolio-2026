@@ -3,6 +3,7 @@ import { useTranslations } from "next-intl";
 import { FaGithub, FaFigma } from "react-icons/fa";
 
 const projectLinks = {
+    validexUp: "https://github.com/Julpach65/ValidexUP",
     mazzCamaron:
         "https://www.figma.com/proto/4c0TbCN3EAFgivxaQrC6t4/REESPALDO-V3?node-id=3-11538&t=SLPTZe49DGmeKR2T-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A7311&show-proto-sidebar=1",
     invoXpressAdmin: "https://github.com/Julpach65/invoxpress-final",
@@ -13,6 +14,7 @@ const projectLinks = {
 };
 
 const projectKeys = [
+    "validexUp",
     "mazzCamaron",
     "invoXpressAdmin",
     "invoXpressEcommerce",

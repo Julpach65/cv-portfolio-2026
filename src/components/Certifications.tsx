@@ -81,6 +81,7 @@ export default function Certifications() {
                         </div>
                     ))}
                 </div>
+                
             </div>
         </section>
     );
