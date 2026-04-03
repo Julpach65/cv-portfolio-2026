@@ -47,6 +47,18 @@
     "viewCode": "Ver código",
     "viewPrototype": "Ver prototipo",
     "items": {
+      "validexUp": {
+        "title": "Validex UP",
+        "description": "Sistema de autenticación biométrica y control operativo con validación de triple validación multifactor para la mitigación de riesgos y prevención de fraude.",
+        "tags": [
+          "FastAPI",
+          "Next.js",
+          "Docker",
+          "React",
+          "AWS",
+          "MySQL"
+        ]
+      },
       "mazzCamaron": {
         "title": "Mazz-Camaron",
         "description": "Diseño de producto UI/UX para una app de gestión para granjas de camarón, con módulos de monitoreo de estanques en tiempo real con el objetivo de reducir la tasa de mortalidad de la cosecha de camarón.",
@@ -136,6 +148,31 @@
         "issuer": "Cisco",
         "year": "2025"
       }
+    }
+  },
+  "platzi": {
+    "title": "Certificaciones Platzi",
+    "viewCert": "Ver Certificado",
+    "explore": "Explorar Certificados Platzi",
+    "hide": "Ocultar Certificados",
+    "showMore": "Ver más certificados",
+    "items": {
+      "aiCustomerService": "IA para Servicio al Cliente",
+      "dataAI": "Herramientas de IA para Equipos de Datos",
+      "ethicalDesign": "Diseño Ético para el Desarrollo de Productos Digitales con IA",
+      "ethicsAI": "Ética y Manejo de Datos para Data Science e IA",
+      "crypto": "Fundamentos de Criptografía",
+      "git": "Git y GitHub",
+      "sheets": "ChatGPT con Google Sheets",
+      "securityGuide": "Aprender Seguridad Informática",
+      "iaFinance": "IA para Finanzas",
+      "engineering": "Fundamentos de Ingeniería de Software",
+      "englishAI": "Work with AI Tools",
+      "midjourney": "Generación de Imágenes con IA",
+      "networks": "Redes Informáticas de Internet",
+      "businessSecurity": "Seguridad Informática",
+      "cyberWorkshop": "Ciberseguridad para Prevenir Ataques Informáticos",
+      "terminal": "Introducción a la Terminal y Línea de Comandos"
     }
   },
   "contact": {

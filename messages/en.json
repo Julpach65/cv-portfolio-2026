@@ -1,163 +1,200 @@
 {
-    "nav": {
-        "about": "About Me",
-        "skills": "Skills",
-        "projects": "Projects",
-        "contact": "Contact",
-        "downloadCV": "Download CV"
+  "nav": {
+    "about": "About Me",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact",
+    "downloadCV": "Download CV"
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "name": "Julian Pacheco\nOsuna",
+    "role": "Backend Developer",
+    "roles": {
+      "backend": "Backend Developer",
+      "student": "IT Engineering Student",
+      "dba": "Database Administrator",
+      "analyst": "Data Analyst"
     },
-    "hero": {
-        "greeting": "Hi, I'm",
-        "name": "Julian Pacheco\nOsuna",
-        "role": "Backend Developer",
-        "roles": {
-            "backend": "Backend Developer",
-            "student": "IT Engineering Student",
-            "dba": "Database Administrator",
-            "analyst": "Data Analyst"
-        },
-        "github": "GitHub",
-        "linkedin": "LinkedIn",
-        "cta": "View my Projects"
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "cta": "View my Projects"
+  },
+  "about": {
+    "title": "About Me",
+    "p1": "I'm a 5th semester IT Engineering student in Mazatlán, Sinaloa. My passion lies in solving complex problems through technology, combining design and development to create effective solutions.",
+    "p2": "I specialize in database efficiency and backend logic, but I also have a strong conviction in UI/UX interface design and data analysis. Seeking professional internships to apply my knowledge during the period of May - August 2026.",
+    "projects": "Projects",
+    "technologies": "Technologies"
+  },
+  "skills": {
+    "title": "My Skills",
+    "backend": {
+      "name": "Backend & Databases",
+      "badge": "My Strength"
     },
-    "about": {
-        "title": "About Me",
-        "p1": "I'm a 5th semester IT Engineering student in Mazatlán, Sinaloa. My passion lies in solving complex problems through technology, combining design and development to create effective solutions.",
-        "p2": "I specialize in database efficiency and backend logic, but I also have a strong conviction in UI/UX interface design and data analysis. Seeking professional internships to apply my knowledge during the period of May - August 2026.",
-        "projects": "Projects",
-        "technologies": "Technologies"
+    "frontend": {
+      "name": "Design & Frontend",
+      "badge": "UI / UX"
     },
-    "skills": {
-        "title": "My Skills",
-        "backend": {
-            "name": "Backend & Databases",
-            "badge": "My Strength"
-        },
-        "frontend": {
-            "name": "Design & Frontend",
-            "badge": "UI / UX"
-        },
-        "tools": {
-            "name": "Tools",
-            "badge": "Tools"
-        }
-    },
-    "projects": {
-        "title": "Projects I've Built",
-        "viewCode": "View Code",
-        "viewPrototype": "View Prototype",
-        "items": {
-            "mazzCamaron": {
-                "title": "Mazz-Camaron",
-                "description": "UI/UX product design for a shrimp farm management app, with real-time pond monitoring modules aimed at reducing shrimp harvest mortality rates.",
-                "tags": [
-                    "UI/UX",
-                    "Figma",
-                    "Product Design",
-                    "Prototype"
-                ]
-            },
-            "invoXpressAdmin": {
-                "title": "InvoXpress - Admin System",
-                "description": "Inventory management system for administering clients, records, suppliers, employees and products.",
-                "tags": [
-                    "Full-Stack",
-                    "Java",
-                    "SQL",
-                    "CRUD"
-                ]
-            },
-            "invoXpressEcommerce": {
-                "title": "InvoXpress - Ecommerce",
-                "description": "InvoXpress is a comprehensive solution designed for efficient sales and billing management in the hardware sector.",
-                "tags": [
-                    "Frontend",
-                    "HTML",
-                    "CSS",
-                    "Javascript"
-                ]
-            },
-            "cloudSyncAI": {
-                "title": "CloudSync AI",
-                "description": "Android application developed in Kotlin. The app demonstrates the integration of a cloud database via Supabase and the use of generative AI through the Google Gemini API.",
-                "tags": [
-                    "Kotlin",
-                    "Backend",
-                    "Sqlite"
-                ]
-            },
-            "mariaDeLetras": {
-                "title": "Maria de Letras",
-                "description": "Solution for inventory control, sales and bookstore administration, even under unstable connectivity conditions.",
-                "tags": [
-                    "JavaScript",
-                    "HTML",
-                    "CSS",
-                    "PHP"
-                ]
-            },
-            "cinepolis": {
-                "title": "Cinepolis Survey APP",
-                "description": "Mobile application designed to collect and manage customer feedback about the cinema experience.",
-                "tags": [
-                    "Supabase",
-                    "Kotlin",
-                    "SQLITE"
-                ]
-            }
-        }
-    },
-    "certifications": {
-        "title": "Certifications",
-        "viewCert": "View Certificate",
-        "items": {
-            "ccna1": {
-                "name": "CCNA: Introduction to Networks",
-                "issuer": "Cisco",
-                "year": "2025"
-            },
-            "ccna2": {
-                "name": "CCNA: Switching, Routing, and Wireless Essentials",
-                "issuer": "Cisco",
-                "year": "2025"
-            },
-            "html": {
-                "name": "HTML Essentials",
-                "issuer": "Cisco",
-                "year": "2025"
-            },
-            "sheets": {
-                "name": "Google Workspace: Spreadsheets",
-                "issuer": "Google",
-                "year": "2024"
-            },
-            "css": {
-                "name": "CSS Essentials",
-                "issuer": "Cisco",
-                "year": "2025"
-            }
-        }
-    },
-    "contact": {
-        "title": "Tell me your ideas",
-        "nameLabel": "Name",
-        "namePlaceholder": "Your full name",
-        "emailLabel": "Email",
-        "emailPlaceholder": "you@email.com",
-        "messageLabel": "Message",
-        "messagePlaceholder": "Tell me about your project or idea...",
-        "send": "Send Message",
-        "infoTitle": "Contact Information",
-        "emailValue": "julianpacheco316@gmail.com",
-        "locationLabel": "Location",
-        "locationValue": "Mazatlán, Sinaloa, México",
-        "availableLabel": "Available for projects",
-        "availableValue": "Currently accepting new collaboration opportunities",
-        "sending": "Sending...",
-        "success": "Message sent successfully!",
-        "error": "There was an error sending. Please try again."
-    },
-    "footer": {
-        "rights": "All rights reserved"
+    "tools": {
+      "name": "Tools",
+      "badge": "Tools"
     }
+  },
+  "projects": {
+    "title": "Projects I've Built",
+    "viewCode": "View Code",
+    "viewPrototype": "View Prototype",
+    "items": {
+      "validexUp": {
+        "title": "Validex UP",
+        "description": "Biometric authentication and industrial operational control system with triple multi-factor validation for risk mitigation and fraud prevention.",
+        "tags": [
+          "FastAPI",
+          "Next.js",
+          "Docker",
+          "React",
+          "AWS",
+          "MySQL"
+        ]
+      },
+      "mazzCamaron": {
+        "title": "Mazz-Camaron",
+        "description": "UI/UX product design for a shrimp farm management app, with real-time pond monitoring modules aimed at reducing shrimp harvest mortality rates.",
+        "tags": [
+          "UI/UX",
+          "Figma",
+          "Product Design",
+          "Prototype"
+        ]
+      },
+      "invoXpressAdmin": {
+        "title": "InvoXpress - Admin System",
+        "description": "Inventory management system for administering clients, records, suppliers, employees and products.",
+        "tags": [
+          "Full-Stack",
+          "Java",
+          "SQL",
+          "CRUD"
+        ]
+      },
+      "invoXpressEcommerce": {
+        "title": "InvoXpress - Ecommerce",
+        "description": "InvoXpress is a comprehensive solution designed for efficient sales and billing management in the hardware sector.",
+        "tags": [
+          "Frontend",
+          "HTML",
+          "CSS",
+          "Javascript"
+        ]
+      },
+      "cloudSyncAI": {
+        "title": "CloudSync AI",
+        "description": "Android application developed in Kotlin. The app demonstrates the integration of a cloud database via Supabase and the use of generative AI through the Google Gemini API.",
+        "tags": [
+          "Kotlin",
+          "Backend",
+          "Sqlite"
+        ]
+      },
+      "mariaDeLetras": {
+        "title": "Maria de Letras",
+        "description": "Solution for inventory control, sales and bookstore administration, even under unstable connectivity conditions.",
+        "tags": [
+          "JavaScript",
+          "HTML",
+          "CSS",
+          "PHP"
+        ]
+      },
+      "cinepolis": {
+        "title": "Cinepolis Survey APP",
+        "description": "Mobile application designed to collect and manage customer feedback about the cinema experience.",
+        "tags": [
+          "Supabase",
+          "Kotlin",
+          "SQLITE"
+        ]
+      }
+    }
+  },
+  "certifications": {
+    "title": "Certifications",
+    "viewCert": "View Certificate",
+    "items": {
+      "ccna1": {
+        "name": "CCNA: Introduction to Networks",
+        "issuer": "Cisco",
+        "year": "2025"
+      },
+      "ccna2": {
+        "name": "CCNA: Switching, Routing, and Wireless Essentials",
+        "issuer": "Cisco",
+        "year": "2025"
+      },
+      "html": {
+        "name": "HTML Essentials",
+        "issuer": "Cisco",
+        "year": "2025"
+      },
+      "sheets": {
+        "name": "Google Workspace: Spreadsheets",
+        "issuer": "Google",
+        "year": "2024"
+      },
+      "css": {
+        "name": "CSS Essentials",
+        "issuer": "Cisco",
+        "year": "2025"
+      }
+    }
+  },
+  "platzi": {
+    "title": "Platzi Certifications",
+    "viewCert": "View Certificate",
+    "explore": "Explore Platzi Certificates",
+    "hide": "Hide Certificates",
+    "showMore": "Show more certificates",
+    "items": {
+      "aiCustomerService": "AI for Customer Service",
+      "dataAI": "AI Tools for Data Teams",
+      "ethicalDesign": "Ethical Design for AI Digital Product Development",
+      "ethicsAI": "Ethics and Data Management for Data Science and AI",
+      "crypto": "Cryptography Fundamentals",
+      "git": "Git and GitHub",
+      "sheets": "ChatGPT with Google Sheets",
+      "securityGuide": "Learn Computer Security",
+      "iaFinance": "AI for Finance",
+      "engineering": "Software Engineering Fundamentals",
+      "englishAI": "Work with AI Tools",
+      "midjourney": "Image Generation with AI",
+      "networks": "Internet Networking",
+      "businessSecurity": "Computer Security",
+      "cyberWorkshop": "Cybersecurity to Prevent Cyber Attacks",
+      "terminal": "Introduction to the Terminal and Command Line"
+    }
+  },
+  "contact": {
+    "title": "Tell me your ideas",
+    "nameLabel": "Name",
+    "namePlaceholder": "Your full name",
+    "emailLabel": "Email",
+    "emailPlaceholder": "you@email.com",
+    "messageLabel": "Message",
+    "messagePlaceholder": "Tell me about your project or idea...",
+    "send": "Send Message",
+    "infoTitle": "Contact Information",
+    "emailValue": "julianpacheco316@gmail.com",
+    "locationLabel": "Location",
+    "locationValue": "Mazatlán, Sinaloa, México",
+    "availableLabel": "Available for projects",
+    "availableValue": "Currently accepting new collaboration opportunities",
+    "sending": "Sending...",
+    "success": "Message sent successfully!",
+    "error": "There was an error sending. Please try again."
+  },
+  "footer": {
+    "rights": "All rights reserved"
+  }
 }
