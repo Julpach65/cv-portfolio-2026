@@ -1,6 +1,6 @@
 # Portafolio 2026 - Julian Pacheco Osuna
 
-Este proyecto es una migración moderna del portafolio personal de Julian Pacheco Osuna a **Next.js 14**, utilizando el App Router, soporte multi-idioma nativo y una arquitectura de componentes escalable.
+Este proyecto es una migración de mi portafolio personal a **Next.js 14**, utilizando el App Router, soporte multi-idioma y una arquitectura de componentes escalables.
 
 ## Tecnologías Principales
 
